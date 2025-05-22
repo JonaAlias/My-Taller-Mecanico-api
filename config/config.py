@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv() #Esto carga el .env
 
 user = os.getenv("MYSQL_USER")
 password = os.getenv("MYSQL_PASSWORD")
