@@ -1,3 +1,19 @@
-envTaller
+# Entorno virtual
+envTaller/
+venv/
+.venv/
+
+# Archivos temporales y bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables de entorno
 .env
-__pycache__
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Archivos de log
+*.log
